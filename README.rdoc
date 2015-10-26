@@ -1,28 +1,21 @@
-== README
+### Describe assiciations
+  * Maybe mess with https://github.com/voormedia/rails-erd
+  * use enum for roles
+    - would introduce some people probably
+    - a chance to knock on AR a little :)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Feature Requests
+##### Admin tickets list
+  1. Admin needs to see all tickets being worked on
+  2. Filter to only show tickets that are active
+  3. Filter to only show tickets for projects they are on
+  4. Augment filter to show all tickets for projects under the company they work for
+  5. Can revoke access to project for within an operation for a worker
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##### Worker tickets list
+  6. worker needs to see only their own tickets
+  7. only active tickets
+  8. only tickets for projects where they are a worker
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Will likely need to have project specific roles here
