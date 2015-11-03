@@ -1,5 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe WorkTicket, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe WorkTicket, :type => :model do
+  subject { FactoryGirl.create(:work_ticket) }
+  it { is_expected.to respond_to :operation }
+  it { is_expected.to respond_to :user }
 end

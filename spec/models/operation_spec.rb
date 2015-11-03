@@ -1,5 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Operation, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Operation, :type => :model do
+  subject { FactoryGirl.create(:operation) }
+  it { is_expected.to respond_to :project }
 end

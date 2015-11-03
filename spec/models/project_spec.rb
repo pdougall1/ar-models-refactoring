@@ -1,5 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe Project, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Project, :type => :model do
+  subject { FactoryGirl.create(:project) }
+  it { is_expected.to respond_to :company }
+  it { is_expected.to respond_to :project_user_roles }
 end
