@@ -1,3 +1,12 @@
+So I'm a big advocate of the perspective that I'm not that different from most people.  And that if I'm encountering a thing than a lot of other people are probably have also encountered it, or maybe the will at some point.
+
+This is not a talk about some important new technology, or a great new functional something.  It's about fundamentals, got to have good fundamentals.
+
+I haven't been programming for decades and haven't ...
+
+I'm attracted to cool new flashy things, that are amazing in the what they fascilitate.  Some of them I've learned (Rails, Ember, D3) Some of them I haven't learned yet (Docker), some of the I'm electing not to learn (MongoDB).  But I do find that the people that are best at what they do are so good because they have good fundamentals.  I think it's easy to loose track of that.  I honestly don't hear that much talk about it at meetups and work and, well everywhere.  I know a lot of people have these things intrained down to their core, such that they don't have to be think about them, they just are them.  But there are many of us that havn't been working with OO for decades, and it helps to have some fundamentals thrown about so we can know about their importance.  This is an attempt at working some of that into the conversation.
+
+
 ### Describe assiciations
   * Maybe mess with https://github.com/voormedia/rails-erd
   * use enum for roles
