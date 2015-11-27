@@ -4,6 +4,7 @@ describe Project, type: :model do
   subject { FactoryGirl.create(:project) }
   it { is_expected.to respond_to :company }
   it { is_expected.to respond_to :project_user_roles }
+  it { is_expected.to respond_to :operations }
 
   describe '.active' do
     let!(:active_project)   { FactoryGirl.create(:project, active: true) }
