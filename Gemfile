@@ -22,7 +22,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'pretty_sql_machine'
+gem 'pretty_sql_machine', '>= 0.1.13'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
